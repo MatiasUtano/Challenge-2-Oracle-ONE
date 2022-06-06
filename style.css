@@ -1,0 +1,82 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#vector{
+    margin-top: 40px;
+    margin-left: 84px;
+}
+
+h1{
+    font-family: 'Rye', cursive;
+    text-decoration:underline;
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+section{
+    vertical-align: top;
+    text-shadow: 1px 1px black;
+    display: inline-block;
+    text-align:center;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 40%;
+}
+
+input[type="text"]{
+    border: 1px solid white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    color: white;
+}
+
+#boton {
+    border: 1px solid black;
+    background-color: #0A3871;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+div{
+    color: white;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+#lienzo {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 0, 0));
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+}
+
+#ganador{
+    display: none;
+    color: green;
+    align-items: center;
+    font-size: 5rem;
+    position: fixed;
+    top: 70%;
+    left: 32%; 
+}
+
+#perdedor {
+    font-family: 'Rubik Wet Paint', cursive;
+    display: none;
+    color: red;
+    align-items: center;
+    font-size: 5rem;
+    position: fixed;
+    top: 70%;
+    left: 32%; 
+}
